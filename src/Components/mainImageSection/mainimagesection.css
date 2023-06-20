@@ -1,0 +1,42 @@
+.mainimagesection{
+    width: 100%;
+    /* scrollbar-width: none; */
+    overflow: hidden;
+}
+.mainimageinnersection{
+    width: 100%;
+    padding: 20px;
+}
+
+.mainimageinnersection{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    
+}
+
+.lefmainimagesection button{
+    width: 7rem;
+    height: 3rem;
+    border: none;
+    outline: none;
+    background-color: #2acfcf;
+    border-radius: 40px;
+    font-size: 15px;
+    margin-top:20px;
+}
+
+.lefmainimagesection .para{
+    margin-top: 20px;
+}
+
+
+@media screen and (max-width:650px) {
+    .mainimageinnersection{
+        width: 100%;
+        
+    }
+}

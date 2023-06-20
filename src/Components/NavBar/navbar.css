@@ -1,0 +1,133 @@
+
+.navbarcontainer{
+    width: 100%;
+    height: 10vh;
+    
+}
+.navbar{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    
+}
+
+.navbar ul{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar ul li{
+    list-style: none;
+    cursor: pointer;
+}
+
+.btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    justify-content: space-around;
+}
+
+.btns button{
+    border: none;
+    outline: none;
+    width: 90px;
+    
+}
+#login{
+    background-color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#signup{
+    background-color: #2acfcf;
+    height: 30px;
+    border-radius: 40px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#logo{
+font-size: xx-large;
+}
+
+#hamburger{
+    display: none;
+}
+@media screen and (max-width:750px){
+    .navbar ul{
+        gap: 20px;
+    }
+}
+@media screen and (max-width:850px){
+    .navbar{
+        justify-content: space-between;
+    }
+    .btns{
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width:660px) {
+    #hamburger{
+        display: block;
+    }
+    .navbar{
+        /* display: none; */
+    }
+    
+    #hamburger{
+        position: absolute;
+        top: 0;
+        right: 35px;
+        margin-top: 10px;
+        font-size: 30px;
+    }
+    .navbarcontainer{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .navbar, .navbar ul{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .navbar{
+        height: 100vh;
+    }
+    .navbar ul{
+        height: 40%;
+    }
+    .btns{
+        height: 20%;
+        flex-direction: column;
+        justify-content: space-around;
+        justify-content: center;
+        align-items: center;
+        margin-left: 50px;
+        
+    }
+    #login{
+        height: 30px;
+        width: 90px;
+    }
+    #signup{
+        margin-top: 30px;
+    }
+}
+
+
+
+
+

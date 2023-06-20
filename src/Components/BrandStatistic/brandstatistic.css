@@ -1,0 +1,113 @@
+.bransstatistic_container {
+    width: 100%;
+    background-color: #eff1f7;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.headercontainer {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    height: 30vh;
+}
+
+.cart2 {
+    margin-top: 125px;
+}
+
+.cart3 {
+    margin-top: 250px;
+}
+
+.allbrands {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+    position: relative;
+    height: 90vh;
+    margin-top: -25px;
+}
+
+.cart {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    height: 40vh;
+    justify-content: center;
+}
+
+.lines {
+    width: 600px;
+    height: 10px;
+    background-color: #2acfcf;
+    position: absolute;
+    bottom: 45%;
+}
+
+.roundimg {
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    background-color: #3b3054;
+    position: absolute;
+}
+.rimg1 {
+    top: 17%;
+    left: 20px;
+}
+.rimg2 {
+    top: 28%;
+}
+.rimg3 {
+    top: 40%;
+}
+
+.boostcarrier{
+    width: 100%;
+    height: 30vh;
+    position: relative;
+}
+.boostcarrier img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.boost_inner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    gap: 20px;
+    top: 30%;
+left: 37%;
+}
+
+.boost_inner h1{
+
+}
+.boost_inner button{
+    width: 8rem;
+height: 38px;
+border: none;
+border-radius: 10px;
+background-color: #2acfcf;
+}

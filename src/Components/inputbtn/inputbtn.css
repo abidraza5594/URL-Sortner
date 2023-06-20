@@ -1,0 +1,41 @@
+.inputbtn_container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.inputbtn_inner{
+    position: relative;
+}
+.centerofimg{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    top: 35%;
+    left: 13%;
+    
+}
+.centerofimg input{
+    width: 30rem;
+    height: 6vh;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid #4b3f6b;
+}
+.centerofimg button{
+    width: 10rem;
+    height: 6vh;
+    color: white;
+    background-color: #2acfcf;
+    border-radius: 10px;
+    border: none;
+}
+
+.inputbtn_inner img{
+    width: 900px;
+    height: 20vh;
+}
